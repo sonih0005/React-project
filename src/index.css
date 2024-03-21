@@ -1,0 +1,814 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    background-color: #041334;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.button
+{
+    margin-block: 30px;
+}
+/* -----------Header component */
+
+/* nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 40px 20px 40px;
+    background: #ffffff0f;
+}
+
+.navLinks .nav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 36px;
+}
+nav .logo img
+{
+    height: 32px;
+}
+nav .navLinks .nav-list 
+{
+    font-size: 15px;
+    font-weight: 500;
+}
+nav .navLinks .nav-list .list-links
+{
+    text-decoration: none;
+    color: white;
+}
+nav .searchIcon img
+{
+    height: 24px;
+} 
+ */
+
+
+
+
+
+/* -----------Header component */
+
+/* -------Crypto Description--------------------------- */
+.crypto-description
+{
+    padding-inline: 104px;
+    margin: 118px 0px 40px 0px;
+}
+.crypto-description h4
+{
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.crypto-description h6
+{
+    font-size: 18px;
+    font-weight: 300;
+}
+.crypto-description .green
+{
+    color: #14FF00;
+}
+.crypto-description .red
+{
+    color: #FF0000;
+    padding-inline: 5px;
+}
+/* -----------Crypto Rates component--------------------*/
+
+main
+{
+    padding-inline: 104px;
+    display: flex;
+    justify-content: space-between;
+}
+main .crypto-list .crypto-name .coins
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+main .crypto-list .crypto-name h3
+{
+    margin-bottom: 33px;
+}
+main .crypto-list .crypto-name .coins p
+{
+    font-size: 20px;
+    font-weight: 700;
+    padding-inline: 15px;
+}
+main .crypto-list .crypto-name .coins  span
+{
+     color: #858585;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+main .price-container .crypto-price-list h3
+{
+    margin-bottom: 33px;
+}
+main .price-container .crypto-price-list .coin-prices
+{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+main .price-container .crypto-price-list .coin-prices p
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+main .price-change-container .price-change-list h3
+{
+    margin-bottom: 33px;
+} 
+main .price-change-container .price-change-list .coin-price-change
+{
+    margin-bottom: 30px;
+}
+main .price-change-container .price-change-list .coin-price-change p
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+main .price-change-container .coin-price-change .price-green
+{
+    color: #14FF00;
+}
+main .price-change-container .coin-price-change .price-red
+{
+    color:#FF0000 ;
+
+}
+
+main .chart-container .price-chart h3
+{
+    margin-bottom: 33px;
+}
+main .chart-container .price-chart .price-graph
+{
+    margin-bottom: 32px;
+}
+main .chart-container .price-chart .price-graph img
+{
+    width: 58px;
+    height: 22px;
+}
+
+main .market-cap-container .market-cap h3
+{
+    margin-bottom: 33px;
+}
+main .market-cap-container .market-cap .market-cap-rate
+{
+    margin-bottom: 30px;
+}
+main .market-cap-container .market-cap .market-cap-rate p
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+ .button button
+{
+    padding: 14px 45px;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #3DD8EE, #0997E8);
+    color: white;
+    margin: 0 auto;
+    display: block;
+    border: none;
+}
+/* -------------------------------------- */
+
+/* ------map-image- container------------ */
+.map-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00092A;
+    margin-top: 6%;
+    padding-bottom: 60px;
+}
+.map-img
+{
+    width: 765px;
+    height: 547px;
+    padding: 40px;
+}
+.map-img img
+{
+    width: 100%;
+}
+.map-right-container
+{
+    width: 499px;
+    height: 540px;
+    padding-block: 40px;
+}
+.map-right-container .top-para h2
+{
+    font-size: 36px;
+    font-weight: 500;
+}
+.map-right-container .top-para p
+{
+    font-size: 15px;
+    font-weight: 400;
+    padding-block: 24px;
+}
+.map-right-container .bottom-para .bottom-details 
+{
+    display: flex;
+    align-items: center;
+}
+.map-right-container .bottom-para .bottom-details .img img
+{
+    background: #ffffff1a;
+    padding: 20px 20px;
+    margin-right: 30px;
+    height: 63px;
+    width: 68px;
+}
+.map-right-container .bottom-para .confidence
+{
+    padding-block: 35px;
+}
+.map-right-container .bottom-para h5
+{
+    font-size: 18px;
+    font-weight: 500;
+}
+.map-right-container .bottom-para .bottom-details p
+{
+   font-weight: 200;
+}
+/* ---------------------------- */
+
+/* --------------portfolio container---------- */
+.portfolioContainer
+{
+    padding-inline: 76px;
+    display: flex;
+    height: 80vh;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.portfolioContainer .portfolio-left-container
+{
+    width: 537px;
+    height: 381px;
+}
+.portfolioContainer .portfolio-left-container .portfolio-heading
+{
+    margin-block: 46px;
+    width: 60%;
+}
+.portfolioContainer .portfolio-left-container .portfolio-details .portfolio-para
+{
+    display: flex;
+}
+.portfolioContainer .portfolio-left-container .portfolio-details h5
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+.portfolioContainer .portfolio-left-container .portfolio-details p
+{
+    font-size: 15px;
+    padding-block: 14px;
+}
+.portfolioContainer .portfolio-left-container .portfolio-details .portfolio-para .sign-img
+{
+    margin-right: 27px;
+}
+.portfolio-right-container
+{
+    width: 601px;
+    height: 334px;
+    background-image: url(./images/bg-graph.png);
+    margin-top: 11%;
+    margin-left: 9%;
+    position: relative;
+    text-align: center;
+}
+.portfolio-right-container .portfolio-card
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(2px) saturate(173%);
+    background-color: rgba(17, 25, 40, 0.54);
+    border-radius: 50px;
+    box-shadow: 1px 1px 14px -5px rgba(235,235,235,1);
+    width: 365px;
+    height: 467px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.portfolio-right-container .portfolio-card h4
+{
+   font-size: 24px;
+   font-weight: 400;
+   padding-top: 15px;
+}
+.portfolio-right-container .portfolio-card .heading
+{
+    color: #00FF47;
+}
+.portfolio-right-container .portfolio-card .coin-portfolio
+{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    
+}
+.portfolio-right-container .portfolio-card .coin-portfolio .logo-coin
+{
+    width: 50px;
+}
+.portfolio-right-container .portfolio-card .coin-portfolio .coin-para
+{
+    padding-left: 30px;
+    padding-right: 70px;
+}
+.portfolio-right-container .portfolio-card .coin-portfolio .coin-percentage
+{
+    color: #00FF47;
+}
+.portfolio-right-container .portfolio-card .coin-portfolio .coin-1,.coin-4
+{
+    padding-left: 23px;
+}
+.portfolio-right-container .portfolio-card .coin-portfolio .coin-3
+{
+     padding-left: 17px;
+}
+/* --------------------------------------------------------- */
+
+/* -----------Footer------------------- */
+footer
+{
+    background-color: #00092A;
+    display: flex;
+    padding-inline: 120px;
+    padding-block: 72px;
+}
+footer .footer-right
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 760px;
+}
+footer .footer-right .footer-links h5
+{
+   font-size: 24px;
+   font-weight: 400;
+   padding-bottom: 20px;
+}
+footer .footer-right .footer-links a
+{
+    text-decoration: none;
+    color: white;
+    line-height: 33px;
+}
+footer .footer-left
+{
+    width: 602px;
+}
+footer .footer-left .footer-txt p
+{
+    font-size: 19px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+/* ------------------------------- */
+
+.subfooter
+{
+    text-align: center;
+    padding-block: 20px;
+}
+/* ------------------------- */
+@media screen and (max-width: 1000px)
+{
+    .crypto-description
+    {
+        padding-inline: 80px;
+    }
+    main 
+    {
+        padding-inline: 80px;
+    }
+    .portfolioContainer
+    {
+        padding-inline: 60px;
+        margin-left: 0;
+
+    }
+    .portfolioContainer .portfolio-left-container
+    {
+        height: 0;
+    }
+    .portfolioContainer .portfolio-left-container .portfolio-heading h2 
+    {
+        font-size: 19px;
+    }
+    .portfolioContainer .portfolio-left-container .portfolio-details h5 {
+        font-size: 19px;
+    }
+    .portfolioContainer .portfolio-left-container .portfolio-details p {
+        font-size: 13px;
+    }
+    .portfolio-right-container {
+        width: 422px;
+    }
+    .portfolio-right-container .portfolio-card {
+        width: 345px;
+        height: 446px;
+        gap: 26px;
+    }
+    .portfolio-right-container .portfolio-card h4 {
+        font-size: 20px;
+    }
+    .portfolio-right-container .portfolio-card .coin-portfolio .logo-coin {
+        width: 47px;
+    }
+    footer 
+    {
+        padding-inline: 50px;
+    }
+
+
+}
+@media screen and (max-width: 1200px){
+    .map-container .map-right-container
+    {
+        min-width: 430px;
+        min-height: 540px;
+    }
+    .map-container .map-right-container .top-para h2
+    {
+        font-size: 30px;
+    }
+    .map-container
+    {
+        padding-inline: 38px;
+    }
+    .map-container .map-img
+    {
+        height: 320px;
+        padding: 0;
+    }
+}
+@media (max-width: 1240px){
+    .portfolioContainer .portfolio-left-container
+    {
+        width: 800px;
+    }
+    .portfolioContainer .portfolio-left-container .portfolio-details p {
+        font-size: 14px;
+      
+    }
+}
+
+@media screen and (max-width: 932px)
+{
+    main
+    {
+        padding-inline: 60px;
+    }
+    .portfolioContainer
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 70px;
+        height: auto;
+    }
+
+    .portfolioContainer .portfolio-left-container
+    {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 80%;
+    height: 100%;
+    }
+    .portfolioContainer .portfolio-right-container
+    {
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        margin-right: 35px;
+    }
+    .portfolioContainer .portfolio-left-container .portfolio-details .portfolio-para .portfolio-details2
+    {
+        padding-block: 20px;
+    }
+    .portfolioContainer .portfolio-left-container .portfolio-heading
+    {
+        width: 100vw;
+        text-align: center;
+
+    }
+    .portfolioContainer .portfolio-left-container .portfolio-heading h2
+    {
+        font-size: 24px;
+        font-weight: 800;
+    }
+
+    footer
+    {
+        margin-top: 10%;
+        padding-inline: 35px;
+    }
+    footer .footer-left .footer-txt p
+    {
+        font-size: 16px;
+    }
+    footer .footer-right .footer-links p a
+    {
+        font-size: 14px;
+    }
+    .map-container
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .map-container .map-img
+    {
+        height: 100%;
+        width: 80%;
+    }
+    .map-container .map-right-container
+    {
+        height: 100%;
+        width: 80%;
+    }
+    .portfolioContainer .portfolio-left-container .portfolio-details .portfolio-para .second-sign {
+        padding-top: 17px;
+    }
+
+}
+@media screen and (max-width: 768px)
+{
+    footer 
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* height: 100vh; */
+        width: 100vw;
+        gap: 50px;
+    }
+    footer .footer-left
+    {
+        width: 100%;
+    }
+    footer .footer-right
+    {
+        width: 100%;
+        justify-content: space-around;
+    }
+    main .market-cap-container
+    {
+        display: none;
+    }
+}
+@media screen and (max-width: 855px)
+{
+    main
+    {
+        padding-inline: 40px;
+    }
+    .map-container
+    {
+        padding-block: 10%;
+    }
+
+}
+@media screen and (max-width: 638px)
+{
+    .crypto-description
+    {
+        padding-inline: 41px;
+    }
+    main .chart-container
+    {
+        display: none;
+    }
+}
+@media screen and (max-width: 556px)
+{
+    main .crypto-list .crypto-name .coins img 
+    {
+        width: 30px;
+    }
+    main .crypto-list .crypto-name .coins p
+    {
+        font-size: 18px;
+    }
+    main .crypto-list .crypto-name .coins p span 
+    {
+        font-size: 13px;
+    }
+    main .price-container .crypto-price-list .coin-prices p
+    {
+        font-size: 18px;
+    }
+    main .price-container .crypto-price-list .coin-prices {
+        margin-bottom: 23px;
+    }
+    main .price-change-container .price-change-list .coin-price-change p {
+        font-size: 18px;
+    }
+    main .price-change-container .price-change-list .coin-price-change {
+        margin-bottom: 23px;
+    }
+    main
+    {
+        align-items: center;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 590px)
+{
+    .portfolioContainer .portfolio-left-container .portfolio-heading h2 
+    {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 480px)
+{
+    main .price-change-container
+    {
+        display: none;
+    }
+    .map-container .map-right-container
+    {
+        padding-left: 60px;
+    }
+    .map-container .map-right-container .top-para
+    {
+        width: 84%;
+    }
+    .map-container .map-right-container .top-para h2 
+    {
+        font-size: 15px;
+    }
+    .map-container .map-right-container .top-para p 
+    {
+        font-size: 12px;
+    }
+    .map-container .map-right-container .bottom-para
+    {
+        width: 76%;
+    }
+    .map-container .map-right-container .bottom-para .bottom-details .img img 
+    {
+        height: 57px;
+        width: 58px;
+    }
+    .map-right-container .bottom-para h5
+    {
+        font-size: 15px;
+    }
+    .map-right-container .bottom-para .bottom-details p
+    {
+        font-size: 13px;
+    }
+    .map-container .map-img
+    {
+        width: 100%;
+    }
+    .portfolioContainer .portfolio-left-container
+    {
+        width: 100%;
+    }
+    .subfooter p
+    {
+        font-size: 13px;
+    }
+    nav .logo 
+    {
+        width: 50%;
+    }
+    nav .menu-icon
+    {
+        width: 26px;
+    }
+    footer .footer-right .footer-links h5 {
+        font-size: 21px;
+    }
+}
+@media screen and (max-width: 380px)
+{
+    main 
+    {
+        padding-inline: 23px;
+    }
+    main .crypto-list .crypto-name .coins p
+    {
+        font-size: 16px;
+    }
+    main .price-container .crypto-price-list .coin-prices p
+    {
+        font-size: 16px;
+    }
+    main .price-container .crypto-price-list .coin-prices {
+        margin-bottom: 25px;
+    }
+    .crypto-description h6 {
+        font-size: 14px;
+    }
+    .crypto-description h4 {
+        font-size: 18px;
+        
+    }
+    .crypto-description {
+        padding-inline: 24px;
+    }
+    footer .footer-right .footer-links h5 {
+        font-size: 18px;
+        font-weight: 600;
+        
+    }
+    footer 
+    {
+        padding-inline: 20px;
+    }
+}
+@media screen and (max-width: 330px)
+{
+    .map-container .map-right-container {
+        padding-left: 78px;
+    }
+    .portfolioContainer .portfolio-left-container
+    {
+        width: 130%;
+    }
+    .portfolioContainer .portfolio-right-container
+    {
+        margin-right: 22px;
+        margin-top: 38%;
+    }
+    .portfolio-right-container .portfolio-card h4
+    {
+        font-size: 18px;
+    }
+    .portfolio-right-container .portfolio-card .coin-portfolio .logo-coin {
+        width: 47px;
+    }
+    .portfolio-right-container .portfolio-card .coin-portfolio .coin-para
+    {
+        font-size: 14px;
+        padding-right: 38px;
+    }
+    .portfolio-right-container .portfolio-card .coin-portfolio .coin-percentage
+    {
+        font-size: 14px;
+    }
+    img .arrow-icon {
+        width: 13px;
+    }
+    .portfolio-right-container .portfolio-card 
+    {
+        width: 140%;
+    }
+    footer .footer-left .footer-logo img
+    {
+        width: 85%;
+    }
+    .subfooter p 
+    {
+        font-size: 11px;
+    }
+
+}
